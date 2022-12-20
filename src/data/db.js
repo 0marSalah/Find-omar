@@ -24,3 +24,147 @@ export const AboutData = [
     "icon": require("/home/omar/Desktop/my-site/src/assets/rocket.png")
   }
 ]
+export const Toolslist = [
+  "All",
+  "ReactJS",
+  "React Native",
+  "Vanilla JavaScript"
+]
+export const ProjectsData = [
+  {
+    "id": "0",
+    "title": "Safer",
+    "subtitle": "Safer Website is Travel Advisor",
+    "tool": "ReactJS",
+    "assets": {
+      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/Safer-project/main-page-safer.png"),
+      "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/Safer-project/main-page-safer.png"),
+      "det1":require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/Safer-project/Safer.png"),
+      "det2": "",
+    },
+    "description": "Safer website is travel advisor, helping people whose didnt know so much about their current place, By Advice them the best Hotels, Restaurants and Attractions around them.",
+    "url": "https://travel-advisor-rose.vercel.app/",
+    "fn": "ReactJS"
+  },
+  {
+    "id": "1",
+    "title": "Deliciousss",
+    "subtitle": "Deliciousss website is your kitchen advisor",
+    "tool": "ReactJs",
+    "assets": {
+      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/Recipe/d-1.png"),
+      "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/Recipe/d-1.png"),
+      "det1": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/Recipe/d-2.png"),
+      "det2": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/Recipe/d-3.png"),
+    },
+    "description": "Delicioussss is a recipe for kitchens from all over the world, offering you what the dish you want is made of, with simple steps to make.",
+    "url": "https://omarsalah1911.github.io/deliciousss/",
+    "fn": "ReactJS"
+  },
+  {
+    "id": "2",
+    "title": "Dolla Site",
+    "subtitle": "Dolla website is virtual banking site",
+    "tool": "reactJs / Styled-Components",
+    "assets": {
+      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/dolla/dolla-cover.png"),
+      "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/dolla/dolla-1.png"),
+      "det1": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/dolla/dolla-2.png"),
+      "det2": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/dolla/Screen Shot 2022-09-14 at 23.41.21.png"),
+    },
+    "description": "Dolla website is virtual banking site, to gives you Unlimited Transaction with zero fees  that allows you to sand unlimited transaction without charged any fees.",
+    "url": "https://omarsalah1911.github.io/dolla-website/",
+    "fn": "ReactJS"
+  },
+  {
+    "id": "3",
+    "title": "ToDo List",
+    "subtitle": "ToDo App the easy way to do your tasks",
+    "tool": "ReactJs / Material UI",
+    "assets": {
+      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/todo-app/todo1.png"),
+      "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/todo-app/todo2.png"),
+      "det1": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/todo-app/todo3.png"),
+      "det2": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/todo-app/todo4.png")
+    },
+    "description": "toDo app is one Place for all your tasks, plan your day effectively and access your tasks and lists from anywhere on-the-go from any device",
+    "url": "https://todo-list-nu-ruddy.vercel.app/",
+    "fn": "ReactJS"
+  },
+  {
+    "id": "4",
+    "title": "Grocery List",
+    "subtitle": "Grocery List to help you remember what you need from market",
+    "tool": "ReactJs",
+    "assets": {
+      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/grocery/grocery-list.png"),
+      "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/grocery/grocery-list.png"),
+      "det1": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/grocery/grocery.png"),
+      "det2": "",
+    },
+    "description": "Grocery List to help you remember what you need from the market, and help to focus on what you need and forget the others stuff, don't waste your money :)",
+    "url": "https://omarsalah1911.github.io/Grocery-List/",
+    "fn": "ReactJS"
+  },
+  {
+    "id": "5",
+    "title": "Calculator",
+    "subtitle": "Calculator is a calculator with basic functionality",
+    "tool": "ReactJs/ A lot Of JavaScript :)",
+    "assets": {
+      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/calc/calc.png"),
+      "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/calc/calc.png"),
+      "det1": "",
+      "det2": "",
+    },
+    "description": "Calculator is a calculator with basic functionality, with fantastic design",
+    "url": "https://omarsalah1911.github.io/Calculator/",
+    "fn": "ReactJS"
+  },
+  {
+    "id": "6",
+    "title": "Blog Site",
+    "subtitle": "Blog Site is an application to write and read blog posts",
+    "tool": "ReactJs / CRUD API / JSON Server",
+    "assets": {
+      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/blog-site/blog-cover.png"),
+      "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/blog-site/home.png"),
+      "det1": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/blog-site/create.png"),
+      "det2": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/blog-site/details.png"),
+    },
+    "description": "Blog Site is an application to write and read blog posts, also you can write your own blog with dynamiclly CRUD api technology",
+    "url": "https://omarsalah1911.github.io/bloger/#/",
+    "fn": "ReactJS"
+  },
+  {
+    "id": "7",
+    "title": "AAA",
+    "subtitle": "AAA Is E-commerce Mobile App",
+    "tool": "React Native / State Managment ReduxJs",
+    "assets": {
+      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react-native/e-commerce/main.jpg"),
+      "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react-native/e-commerce/main.jpg"),
+      "det1": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react-native/e-commerce/login.jpg"),
+      "det2": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react-native/e-commerce/cart.jpg"),
+    },
+    "description": "AAA mobile App online store to buy what you need without wasting your time",
+    "url": "https://github.com/OmarSalah1911/ecommerce",
+    "fn": "React Native"
+  },
+  {
+    "id": "8",
+    "title": "Memory Game",
+    "subtitle": "Memory game is challenge game to develop you brain memory",
+    "tool": "JavaScript / HTML / CSS",
+    "assets": {
+      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/js/memory-game/front.png"),
+      "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/js/memory-game/front.png"),
+      "det1": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/js/memory-game/front.png"),
+      "det2": "",
+    },
+    "description": "Memory Game is challenge you to get all photos match each other in time duration enjoy it with a cup of coffee.",
+    "url": "https://memory-game-beta-one.vercel.app/",
+    "fn": "Vanilla JavaScript"
+  },
+]
+

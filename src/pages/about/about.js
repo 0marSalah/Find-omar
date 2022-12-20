@@ -3,13 +3,18 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   padding-inline: 300px;
   padding-block: 40px;
-  transition: all ease-in-out 1.5s;
-  margin-left: ${({ scroll }) => (scroll ? "0px" : "-1000vw")};
+  transition: all ease-in-out 1.2s;
+  gap: 15px;
+  margin-left: ${({ scroll }) => (scroll ? "0px" : "-800vw")};
   background-image: linear-gradient(180deg, rgba(0,0,0,0.99) 0%, rgba(0,0,0,0.8) 100%),
     linear-gradient(180deg, rgba(0,0,0,0.8) 0%,  rgba(0,0,0,0.7) 100%);
   * {
     font-family: 'Raleway';
     color: #eee;
+  }
+  @media (max-width:1024px) {
+    padding-inline: 40px;
+    margin-left: 0px;
   }
 `
 export const Container = styled.div`

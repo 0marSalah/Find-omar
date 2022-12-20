@@ -19,14 +19,16 @@ const Navbar = () => {
     window.addEventListener("scroll", changenav)
   }, [])
 
-  const toggleHome = () => {
-    scroll.scrollToTop()
-  }
-
   return (
     <Wrapper scrollNav={scrollNav}>
       <Logo>
-        <NavLink to='home'>
+        <NavLink to='home'
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={350}
+          exact='true'
+          activeClass='active'>
           <img style={{ width: '70px', marginTop: "5px" }} src={logo} alt="logo" />
         </NavLink>
       </Logo>
@@ -58,11 +60,12 @@ const Navbar = () => {
           exact={'true'}>CONTACT</NavLink>
       </List>
 
-      <Icon onClick={() => setOnclick(!onclick)}>
+      <Icon className='hamburger' onClick={() => setOnclick(!onclick)}>
         <CloseIcon>
           <BsList />
         </CloseIcon>
       </Icon>
+
       <ResList onclick={onclick}>
         <NavLink to="home"
           spy={true}

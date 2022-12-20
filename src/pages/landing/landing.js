@@ -15,7 +15,7 @@ export const Container = styled.div`
     top: 0;
     left: 0;
     right: 0;
-    background-image: linear-gradient(180deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.8) 100%),
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.8) 100%),
     linear-gradient(180deg, rgba(0,0,0,0.8) 0%, transparent 100%);
     z-index: 2;
   }
@@ -29,11 +29,11 @@ export const LandB = styled.div`
   overflow: hidden;
 `
 export const VideoBg = styled.video`
-  width:100vw;
+  width: 100vw;
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  background-color: #232a34;
+  background-color: #232a34;  
 `
 export const Content = styled.div`
   font-family: 'Raleway';
@@ -46,7 +46,7 @@ export const Content = styled.div`
   width: 99vw;
   max-width: 100vw;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   line-height: 1.5;
   display: flex;
   flex-direction: column;
@@ -56,7 +56,7 @@ export const Content = styled.div`
   font-weight: 100;
   
   h1 {
-    font-weight: 200;
+    font-weight: 400;
   }
 
   span {

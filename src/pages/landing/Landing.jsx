@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { BsArrowRight } from 'react-icons/bs'
-import { Button, Container, Content, Img, ImgWrap, LandB, VideoBg } from './landing'
-import Video from '/home/omar/Desktop/my-site/src/assets/Orangevideo.mp4'
+import { Button, Container, Content, LandB, VideoBg } from './landing'
+import Video from '/home/omar/Desktop/my-site/src/assets/video.mp4'
 import avatar from '/home/omar/Desktop/my-site/src/assets/me.png'
 import { NavLink } from '../navbar/navbar'
 
@@ -16,7 +16,7 @@ const Landing = () => {
       <Content>
           <h1>
             Hello, I'm <span>Omar Salah</span> <br />
-            A creative front-end web developer
+            Creative front-end web developer
           </h1>
           <Button
             onMouseEnter={() => setHover(true)}

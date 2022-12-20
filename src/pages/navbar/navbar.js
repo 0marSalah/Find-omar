@@ -18,6 +18,7 @@ export const Wrapper = styled.div`
   align-items: center;
   transition: all ease-in-out 0.5s;
   margin-top: ${({ scrollNav }) => (scrollNav ? "0px" : "-100px")};
+  z-index: 999999;
 `
 export const Logo = styled.div`
   margin-left: -20px;
@@ -78,6 +79,11 @@ export const ResList = styled.ul`
   transition: all 0.3s ease-in-out;
   background-color: #000;
   padding: 1rem 2rem;
+
+  @media (min-width: 768px) {
+    display: none;
+    transition: all 0.3s ease-in-out;
+  }
 `
 export const ResLink = styled(LinkS)`
   padding-inline: 10px;
