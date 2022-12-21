@@ -1,17 +1,12 @@
 import styled from "styled-components";
-import { animateScroll, Link as LinkS } from "react-scroll"
-
-let w = '3650px'
 
 export const Wrapper = styled.div`
-  padding-inline: 150px;
+  padding-inline: 250px;
   padding-block: 40px;
   background-image: linear-gradient(180deg, rgba(0,0,0,0.99) 0%, rgba(0,0,0,0.8) 100%),
     linear-gradient(180deg, rgba(0,0,0,0.8) 0%,  rgba(0,0,0,0.7) 100%);
-
   * {
     font-family: 'Raleway';
-    color: #eee;
   }
   @media (max-width:1038px) {
     padding-inline: 0px;
@@ -28,9 +23,9 @@ export const ProjectsContainer = styled.div`
   display: grid;
   align-items: center;
   justify-items: center;
-  /* gap: 20px; */
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  /* opacity: ${({ hover }) => (hover ? "1" : "0")}; */
+  height: auto;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  z-index: ${({ hover }) => (hover ? "1" : "-1")};
 `
 export const ToolsList = styled.ul`
   list-style: none;
@@ -39,6 +34,9 @@ export const ToolsList = styled.ul`
   align-items: center;
   margin: 20px 0;
   cursor: pointer;
+  * {
+    color: #eee;
+  }
 
   .active {
     min-width: 150px;
@@ -57,7 +55,6 @@ export const ToolsList = styled.ul`
 
   @media (max-width: 768px) {
     max-width: 100%;
-    /* padding: 5px 30px; */
     display: none;
   }
 `
@@ -74,22 +71,27 @@ export const Tool = styled.li`
 `
 export const Project = styled.div`
   position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: ease-in-out all 2s;
 
   :before {
     content: '';
-    position: absolute;
+    position: absolute; 
+    width: 100%;
     height: 100%;
     top: 0;
     left: 0;
     right: 0;
-    background-image: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.9) 100%),
-    linear-gradient(180deg, rgba(0,0,0,0.4) 0%, transparent 100%);
-    z-index: 2;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.25) 100%);
+      z-index: ${({ hover }) => (hover ? "2" : "-1")};
   }
 `
 export const HoverContainer = styled.div`
   position: absolute;
-  background-color: #000;
+  background-image: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.9) 100%),
+    linear-gradient(180deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.9)  100%);
   top: 0;
   left: 0;
   width: 100%;
@@ -145,18 +147,13 @@ export const Subtitle = styled.div`
 
 `
 export const CoverD = styled.div`
-  width: 360px;
-  height: 360px;
+  width: 100%;
+  height: 400px;
   overflow: hidden;
   position: relative;
   transition: ease-in-out all 2s;
 `
 export const Cover = styled.img`
-  max-width: 360px;
-  max-height: 360px;
-  min-width: 360px;
-  min-height: 360px;
-`
-export const Slider = styled.div`
-
+  width: 100%;
+  height: 400px;
 `

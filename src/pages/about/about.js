@@ -17,21 +17,20 @@ export const Wrapper = styled.div`
     margin-left: 0px;
   }
 `
-export const Container = styled.div`
-  
-`
 export const H1D = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-block: 80px;
 `
 export const H1 = styled.h1`
-  font-size: 50px;
+  font-size: 55px;
   text-align: center;
   margin-block: 50px;
   position: relative;
   width: fit-content;
+  color: #eee;  
 
   :before {
     content: '';
@@ -84,7 +83,6 @@ export const SkillsContainer = styled.div`
   justify-content: center;
   gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  /* margin-top: ${({ scroll }) => (scroll ? "0px" : "-1000vw")}; */
   opacity: ${({ scroll }) => (scroll ? "1" : "0")};
   padding: 80px 0px;
 

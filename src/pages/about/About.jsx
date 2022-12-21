@@ -4,7 +4,6 @@ import { AboutData } from '../../data/db'
 import { NavLink } from '../navbar/navbar'
 import {
   Wrapper,
-  Container,
   H1,
   CardContainer,
   Card,
@@ -50,7 +49,6 @@ const About = () => {
   }, [])
   return (
     <Wrapper id='about' scroll={scroll}>
-      <Container>
         <H1D><H1>ABOUT</H1></H1D>
 
         <CardContainer scroll={scroll}>
@@ -91,7 +89,6 @@ const About = () => {
             <SkillBar skills={skills} animationDelay={180} colors={colors} height={'5vh'} style={{borrderRadius: '5px'}}/>
           </Right>
         </SkillsContainer>
-      </Container>
     </Wrapper>
   )
 }
