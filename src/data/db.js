@@ -36,6 +36,7 @@ export const ProjectsData = [
     "title": "Safer",
     "subtitle": "Safer Website is Travel Advisor",
     "tool": "ReactJS",
+    "gitUrl": "https://github.com/OmarSalah1911/travel-advisor",
     "assets": {
       "cover": require("../assets/my-portfolio/react/Safer-project/safer1.png"),
       "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/Safer-project/safer1.png"),
@@ -51,6 +52,7 @@ export const ProjectsData = [
     "title": "Deliciousss",
     "subtitle": "Deliciousss website is your kitchen advisor",
     "tool": "ReactJs",
+    "gitUrl": "https://github.com/OmarSalah1911/deliciousss",
     "assets": {
       "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/Recipe/d-1.png"),
       "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/Recipe/d-1.png"),
@@ -66,6 +68,7 @@ export const ProjectsData = [
     "title": "Cryptoon",
     "subtitle": "Cryptoon is website for the latest news about crypto currencies",
     "tool": "ReactJS",
+    "gitUrl": "https://github.com/OmarSalah1911/cryptoon",
     "assets": {
       "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/crypto/crypto1.png"),
       "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/crypto/crypto2.png"),
@@ -81,8 +84,9 @@ export const ProjectsData = [
     "title": "Dolla Site",
     "subtitle": "Dolla website is virtual banking site",
     "tool": "ReactJs / Styled-Components",
+    "gitUrl": "https://github.com/OmarSalah1911/dolla-website",
     "assets": {
-      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/dolla/dolla-cover.png"),
+      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/dolla/dolla-1.png"),
       "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/dolla/dolla-1.png"),
       "det1": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/dolla/dolla-2.png"),
       "det2": require('/home/omar/Desktop/my-site/src/assets/my-portfolio/react/dolla/dolla-mobile-view-1.png'),
@@ -96,6 +100,7 @@ export const ProjectsData = [
     "title": "ToDo List",
     "subtitle": "ToDo App the easy way to do your tasks",
     "tool": "ReactJs / Material UI",
+    "gitUrl": "https://github.com/OmarSalah1911/Todo-List",
     "assets": {
       "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/todo-app/todo1.png"),
       "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/todo-app/todo2.png"),
@@ -111,6 +116,7 @@ export const ProjectsData = [
     "title": "Grocery List",
     "subtitle": "Grocery List to help you remember what you need from market",
     "tool": "ReactJs",
+    "gitUrl": "https://github.com/OmarSalah1911/Grocery-List",
     "assets": {
       "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/grocery/grocery-list.png"),
       "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/grocery/grocery-list.png"),
@@ -126,6 +132,7 @@ export const ProjectsData = [
     "title": "Blog Site",
     "subtitle": "Blog Site is an application to write and read blog posts",
     "tool": "ReactJs / CRUD API / JSON Server",
+    "gitUrl": "https://github.com/OmarSalah1911/bloger",
     "assets": {
       "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/blog-site/blog-cover.png"),
       "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/blog-site/home.png"),
@@ -141,6 +148,7 @@ export const ProjectsData = [
     "title": "Calculator",
     "subtitle": "Calculator is a calculator with basic functionality",
     "tool": "ReactJs/ A lot Of JavaScript :)",
+    "gitUrl": "https://github.com/OmarSalah1911/Calculator",
     "assets": {
       "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/calc/calc.png"),
       "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/calc/calc1.png"),
@@ -156,6 +164,7 @@ export const ProjectsData = [
     "title": "AAA",
     "subtitle": "AAA Is E-commerce Mobile App",
     "tool": "React Native / State Managment ReduxJs",
+    "gitUrl": "https://github.com/OmarSalah1911/ecommerce-ReactNative",
     "assets": {
       "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react-native/e-commerce/cover.jpg"),
       "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react-native/e-commerce/cover.jpg"),
@@ -171,11 +180,12 @@ export const ProjectsData = [
     "title": "Memory Game",
     "subtitle": "Memory game is challenge game to develop you brain memory",
     "tool": "JavaScript / HTML / CSS",
+    "gitUrl": "",
     "assets": {
       "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/js/memory-game/front.png"),
       "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/js/memory-game/front.png"),
       "det1": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/js/memory-game/back.png"),
-      "det2": "",
+      "det2": "https://github.com/OmarSalah1911/Memory-Game",
     },
     "description": "Memory Game is challenge you to get all photos match each other in time duration enjoy it with a cup of coffee.",
     "url": "https://memory-game-beta-one.vercel.app/",

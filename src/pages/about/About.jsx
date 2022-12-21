@@ -76,8 +76,8 @@ const About = () => {
               <Img src={require('/home/omar/Desktop/my-site/src/assets/edit.png')} alt="" />
             </MeWrapper>
             <h1>Who's this guy?</h1>
-            <Desc>I'm a Front-End Developer for ChowNow in Los Angeles, CA. <br />
-              I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
+            <Desc>I'm a Front-End Developer based on Aswan/Egypt <br />
+              I have serious passion for animations and creating intuitive, dynamic websites and web applications.
               </Desc>
             <NavLink style={{
               color: "#04c2c9"

@@ -70,12 +70,6 @@ export const Button = styled.a`
     margin-block: 20px;
     width: fit-content;
     cursor: pointer;
-    
-    font-size: ${({ click }) => {
-    if (click === 'outside') {
-      return '0'
-    } else return '16px'
-  }};
 
     &:hover {
       background-color: #04c2c9;
@@ -138,14 +132,11 @@ export const ImgWrap = styled.div`
     z-index: 1 !important;
     background-image: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.25) 100%);
       z-index: ${({ hover }) => (hover ? "2" : "-1")};
-    /* background-color: transparent; */
-    /* z-index: 2; */
   }
 `
 export const Img = styled.img`
   width: 100%;
   min-height: 100%;
-  /* border-radius: 100px; */
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
 `
@@ -163,7 +154,7 @@ export const Closing = styled.div`
     cursor: pointer;
     top: ${({ click }) => {
     if (click === 'outside') {
-      return '-100px'
+      return '-1000px'
     } else return '0px'
   }};
 `

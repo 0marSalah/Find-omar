@@ -65,6 +65,11 @@ const ProjectDetails = ({ projects, specific, click, setClick }) => {
             <Subtitle>{project.subtitle}</Subtitle>
           </Content>
           <Desc click={click}>{project.description}</Desc>
+          <div style={{
+            display: 'flex',
+            justifyContent: 'flex-start',
+            
+          }}>
           <Button 
             href={project.url}
             target="_blank"
@@ -73,6 +78,15 @@ const ProjectDetails = ({ projects, specific, click, setClick }) => {
               marginInline: '35px',
               marginTop: '30px'
           }}><Icon /> View Site</Button>
+          <Button 
+            href={project.gitUrl}
+            target="_blank"
+            style={{
+              color: '#eee',
+              marginInline: '35px',
+              marginTop: '30px'
+          }}><Icon /> View Code</Button>
+          </div>
           <Closing click={click} onClick={() => setClick('outside')} >
             <Close />
           </Closing>

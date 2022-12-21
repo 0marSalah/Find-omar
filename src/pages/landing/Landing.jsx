@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { BsArrowRight } from 'react-icons/bs'
 import { Button, Container, Content, LandB, VideoBg } from './landing'
-import Video from '/home/omar/Desktop/my-site/src/assets/videoOne.mp4'
+import Video from '/home/omar/Desktop/my-site/src/assets/Orangevideo.mp4'
 import { NavLink } from '../navbar/navbar'
 
 const Landing = () => {

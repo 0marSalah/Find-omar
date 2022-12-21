@@ -3,6 +3,7 @@ import Navbar from './pages/navbar/Navbar';
 import Landing from './pages/landing/Landing';
 import About from './pages/about/About';
 import Work from './pages/work/Work';
+import Contact from './pages/contact/Contact';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Landing />        
         <About />
         <Work />
+        <Contact />
       </div>
     );
   }

@@ -34,9 +34,6 @@ export const ToolsList = styled.ul`
   align-items: center;
   margin: 20px 0;
   cursor: pointer;
-  * {
-    color: #eee;
-  }
 
   .active {
     min-width: 150px;
@@ -78,13 +75,14 @@ export const Project = styled.div`
 
   :before {
     content: '';
-    position: absolute; 
+    position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
     right: 0;
-    background-image: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.25) 100%);
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.9) 100%),
+    linear-gradient(180deg, rgba(0,0,0,0.4) 0%, transparent 100%);
       z-index: ${({ hover }) => (hover ? "2" : "-1")};
   }
 `

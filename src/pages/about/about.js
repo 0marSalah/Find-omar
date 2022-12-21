@@ -22,15 +22,17 @@ export const H1D = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-block: 80px;
+  padding-block: 80px;
+  font-family: 'Raleway';
 `
 export const H1 = styled.h1`
   font-size: 55px;
   text-align: center;
-  margin-block: 50px;
+  padding-block: 50px 10px;
   position: relative;
   width: fit-content;
   color: #eee;  
+  font-family: 'Raleway';
 
   :before {
     content: '';
@@ -118,7 +120,7 @@ export const Img = styled.img`
   width: 300px;
 `
 export const Desc = styled.div`
-  line-height: 1.5;
+  line-height: 1.8;
   font-size: 1rem;
 `
 export const Right = styled.div`
