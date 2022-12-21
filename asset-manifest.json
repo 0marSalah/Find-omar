@@ -1,8 +1,10 @@
 {
   "main.css": "static/css/main.7916b372.css",
   "main.css.map": "static/css/main.7916b372.css.map",
-  "main.js": "static/js/main.d2b3c93e.js",
-  "main.js.map": "static/js/main.d2b3c93e.js.map",
+  "main.js": "static/js/main.fbb63c53.js",
+  "main.js.map": "static/js/main.fbb63c53.js.map",
+  "static/media/Orangevideo.mp4": "static/media/Orangevideo.f32d6aba.mp4",
+  "static/media/WorldMap.svg": "static/media/WorldMap.2928b1bc.svg",
   "static/media/back.png": "static/media/back.5f13d516.png",
   "static/media/blog-cover.png": "static/media/blog-cover.bd19f7ca.png",
   "static/media/calc.png": "static/media/calc.4ee74d92.png",
@@ -18,7 +20,6 @@
   "static/media/d-3.png": "static/media/d-3.5c351e09.png",
   "static/media/dolla-1.png": "static/media/dolla-1.706eb880.png",
   "static/media/dolla-2.png": "static/media/dolla-2.71ec7e6b.png",
-  "static/media/dolla-cover.png": "static/media/dolla-cover.47d9bcff.png",
   "static/media/dolla-mobile-view-1.png": "static/media/dolla-mobile-view-1.9a54bf28.png",
   "static/media/edit.png": "static/media/edit.71f821e4.png",
   "static/media/front.png": "static/media/front.93b51dd6.png",
@@ -33,6 +34,5 @@
   "static/media/todo1.png": "static/media/todo1.ca9f53b6.png",
   "static/media/todo2.png": "static/media/todo2.4632458c.png",
   "static/media/todo3.png": "static/media/todo3.3be33d9d.png",
-  "static/media/todo4.png": "static/media/todo4.03030360.png",
-  "static/media/videoOne.mp4": "static/media/videoOne.ed44dc5d.mp4"
+  "static/media/todo4.png": "static/media/todo4.03030360.png"
 }
