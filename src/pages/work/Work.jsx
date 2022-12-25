@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import { useRef, useEffect } from 'react';
-import ProjectDetails from '../../components/ProjectDetails';
-import { ProjectsData, Toolslist } from '../../data/db'
-import { H1D, H1 } from "../about/about"
+import ProjectDetails from '../../components/ProjectDetails.jsx';
+import { ProjectsData } from '../../data/db'
+import { H1D, H1 } from "../about/About"
 import {
-  Container, Cover, CoverD, Project, ProjectsContainer, ProjectsWrapper, Title, Tool, ToolsList, Wrapper,
+  Container, Cover, CoverD, Project, ProjectsContainer, ProjectsWrapper, Title, Wrapper,
   HoverContainer, Content, Button, Tools
-} from './work'
+} from './Work'
 
 const Work = () => {
   const ref = useRef()
@@ -54,19 +54,6 @@ const Work = () => {
           </H1>
         </H1D>
         <ProjectsWrapper>
-          {/* <ToolsList >
-            {
-              Toolslist.map((tool) => (
-                <Tool
-                  onClick={(e) => changeActive(e)}
-                  className={tool === 'All' ? "active sc-gikAfH ktHcbS" : " " + "sc-gikAfH ktHcbS"}
-                  key={tool}
-                >
-                  <h5>{tool}</h5>
-                </Tool>
-              ))
-            }
-          </ToolsList> */}
           <ProjectsContainer hover={hover}>
             {
               projects && projects.map(project => (

@@ -1,38 +1,49 @@
-import React, { useEffect, useRef } from 'react'
-import { Button, Closing, Icon, Wrapper, Container, Content, ImgWrap, Img, Title, Subtitle, Desc, Close } from './projectDetails'
+import React, { useEffect, useRef } from "react";
+import {
+  Button,
+  Closing,
+  Icon,
+  Wrapper,
+  Container,
+  Content,
+  ImgWrap,
+  Img,
+  Title,
+  Subtitle,
+  Desc,
+  Close,
+} from "./ProjectDetails";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Navigation, Pagination } from 'swiper';
+import SwiperCore, { Navigation, Pagination } from "swiper";
 
-import 'swiper/swiper-bundle.min.css'
-import 'swiper/swiper.min.css'
-import 'swiper/swiper-bundle.min.css'
-import 'swiper/swiper.min.css'
+import "swiper/swiper-bundle.min.css";
+import "swiper/swiper.min.css";
+import "swiper/swiper-bundle.min.css";
+import "swiper/swiper.min.css";
 
 SwiperCore.use([Navigation, Pagination]);
 
 const ProjectDetails = ({ projects, specific, click, setClick }) => {
+  const arr = projects.filter((project) => project.id === specific);
 
-  const arr = projects.filter(project => project.id === specific)
-
-  const refOne = useRef(null)
+  const refOne = useRef(null);
 
   const handeCleClickOutSide = (e) => {
     if (!refOne.current.contains(e.target)) {
-      setClick('outside')
+      setClick("outside");
     } else {
-      setClick('inside')
+      setClick("inside");
     }
-  }
+  };
 
   useEffect(() => {
-    document.addEventListener('click', handeCleClickOutSide, true)
-  }, [])
+    document.addEventListener("click", handeCleClickOutSide, true);
+  }, []);
 
   return (
     <Wrapper ref={refOne} specific={specific} click={click}>
-      {arr.map(project => (
+      {arr.map((project) => (
         <Container>
-
           <Swiper
             loop={true}
             spaceBetween={20}
@@ -41,60 +52,71 @@ const ProjectDetails = ({ projects, specific, click, setClick }) => {
             navigation
             pagination={{ clickable: true }}
             style={{
-              backgroundColor: "#000"
+              backgroundColor: "#000",
             }}
+            data-swiper-autoplay="2000"
           >
-            <SwiperSlide >
+            <SwiperSlide>
               <ImgWrap>
                 <Img src={project.assets.main} />
               </ImgWrap>
             </SwiperSlide>
-            {project.assets.det1 && <SwiperSlide >
-              <ImgWrap>
-                <Img src={project.assets.det1} />
-              </ImgWrap>
-            </SwiperSlide>}
-            {project.assets.det2 && <SwiperSlide >
-              <ImgWrap>
-                <Img src={project.assets.det2} />
-              </ImgWrap>
-            </SwiperSlide>}
+            {project.assets.det1 && (
+              <SwiperSlide>
+                <ImgWrap>
+                  <Img src={project.assets.det1} />
+                </ImgWrap>
+              </SwiperSlide>
+            )}
+            {project.assets.det2 && (
+              <SwiperSlide>
+                <ImgWrap>
+                  <Img src={project.assets.det2} />
+                </ImgWrap>
+              </SwiperSlide>
+            )}
           </Swiper>
           <Content specific={specific} click={click}>
             <Title>{project.title}</Title>
             <Subtitle>{project.subtitle}</Subtitle>
           </Content>
           <Desc click={click}>{project.description}</Desc>
-          <div style={{
-            display: 'flex',
-            justifyContent: 'flex-start',
-            
-          }}>
-          <Button 
-            href={project.url}
-            target="_blank"
+          <div
             style={{
-              color: '#eee',
-              marginInline: '35px',
-              marginTop: '30px'
-          }}><Icon /> View Site</Button>
-          <Button 
-            href={project.gitUrl}
-            target="_blank"
-            style={{
-              color: '#eee',
-              marginInline: '35px',
-              marginTop: '30px'
-          }}><Icon /> View Code</Button>
+              display: "flex",
+              justifyContent: "flex-start",
+            }}
+          >
+            <Button
+              href={project.url}
+              target="_blank"
+              style={{
+                color: "#eee",
+                marginInline: "35px",
+                marginTop: "30px",
+              }}
+            >
+              <Icon /> View Site
+            </Button>
+            <Button
+              href={project.gitUrl}
+              target="_blank"
+              style={{
+                color: "#eee",
+                marginInline: "35px",
+                marginTop: "30px",
+              }}
+            >
+              <Icon /> View Code
+            </Button>
           </div>
-          <Closing click={click} onClick={() => setClick('outside')} >
+          <Closing click={click} onClick={() => setClick("outside")}>
             <Close />
           </Closing>
-
         </Container>
       ))}
     </Wrapper>
-  )
-}
+  );
+};
 
-export default ProjectDetails
+export default ProjectDetails;

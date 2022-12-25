@@ -53,7 +53,7 @@ export const Wrapper = styled.div`
   width: ${({ click }) => {
     if (click === 'outside') {
       return '0'
-    } else return '98vw'
+    } else return '90vw'
   }};
   }
 `
@@ -67,9 +67,11 @@ export const Button = styled.a`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-block: 20px;
-    width: fit-content;
+    margin-inline: 15px;
+    /* width: fit-content; */
     cursor: pointer;
+    width: 190px;
+    height: 60px;
 
     &:hover {
       background-color: #04c2c9;
@@ -147,25 +149,27 @@ export const Icon = styled(FiExternalLink)`
   margin-inline: 0 5px;
 `
 export const Closing = styled.div`
-    position: absolute;
-    /* top: 0px; */
-    right: -50px;
-    transition: all 0.3 ease-in-out;
-    cursor: pointer;
-    top: ${({ click }) => {
+  position: ${({ click }) => {
     if (click === 'outside') {
-      return '-1000px'
-    } else return '0px'
+      return 'revert'
+    } else return 'absolute'
   }};
+  top: 12px;
+  right: 15px;
+  z-index: 9;
+  transition: all 0.3 ease-in-out;
+  cursor: pointer;
+  background-color: #3333336f;
+  padding: 5px;
 `
 export const Close = styled(AiOutlineClose)`
-  font-size: 35px;
-  color: #eee;
+  font-size: 25px;
+  color: #e31b6d;
 
   transition: all 0.3 ease-in-out;
 
-    :hover {
-      transition: all 0.3 ease-in-out;
-      color: red;
-    }
+  :hover {
+    transition: all 0.3 ease-in-out;
+    opacity: 0.6;
+  }   
 `

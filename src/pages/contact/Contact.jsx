@@ -1,23 +1,14 @@
-import React, { useRef } from 'react';
-import { H1, H1D } from '../about/about'
-import { Submit, CopyRight, Form, Input, TextArea, Wrapper, Container, Footer, GoWrap, Go, ContactList, Item, Link } from './contact'
+import React from 'react';
+import { H1, H1D } from '../about/About'
+import { Submit, CopyRight, Form, Input, TextArea, Wrapper, Container, Footer, GoWrap, Go, ContactList, Item, Link } from './Contact'
 import { FaGithub, FaFacebookF, FaLinkedinIn, FaInstagram, FaTwitter } from 'react-icons/fa'
-import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-  const form = useRef();
-
   const sendEmail = (e) => {
-    e.preventDefault();
+    e.preventDefault()
+    e.target.reset()
+  }
 
-    emailjs.sendForm('service_t1sj16c', 'template_vx6c2m9', form.current, 'PIF00s1Y-VSDkMdic')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-      e.target.reset()
-  };
   return (
     <Wrapper id='contact'>
       <Container>
@@ -29,7 +20,7 @@ const Contact = () => {
         <p className={'subparagraph'}>
           Have a question or want to work together?
         </p>
-        <Form ref={form} onSubmit={sendEmail}>
+        <Form onSubmit={sendEmail}>
           <Input
             type='text'
             placeholder='Name'
@@ -48,7 +39,7 @@ const Contact = () => {
             required
           />
           <Submit
-          type={'submit'}
+            type={'submit'}
             style={{}}
             value='SUBMIT'
           />

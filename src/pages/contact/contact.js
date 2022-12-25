@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import img from "/home/omar/Desktop/my-site/src/assets/WorldMap.svg"
-import { FaAngleDoubleUp, FaFacebookF, FaLinkedinIn, FaInstagram, FaTwitter } from 'react-icons/fa'
+import { FaAngleDoubleUp } from 'react-icons/fa'
 import { Link as LinkS } from "react-scroll";
 
 

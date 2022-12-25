@@ -3,25 +3,25 @@ export const AboutData = [
     "title": "Fast",
     "body": "Fast load times and lag free interaction, my highest priority. ",
     "id": "0",
-    "icon": require("/home/omar/Desktop/my-site/src/assets/fast.png")
+    "icon": require("../assets/fast.png")
   },
   {
     "title": "Responsive",
     "body": "My layouts will work on any device, big or small.",
     "id": "1",
-    "icon": require("/home/omar/Desktop/my-site/src/assets/responsive-design.png")
+    "icon": require("../assets/responsive-design.png")
   },
   {
     "title": "Intuitive",
     "body": "Strong preference for easy to use, intuitive UX/UI.",
     "id": "2",
-    "icon": require("/home/omar/Desktop/my-site/src/assets/led-lamp.png")
+    "icon": require("../assets/led-lamp.png")
   },
   {
     "title": "Dynamic",
     "body": "Websites don't have to be static, I love making pages come to life.",
     "id": "3",
-    "icon": require("/home/omar/Desktop/my-site/src/assets/rocket.png")
+    "icon": require("../assets/rocket.png")
   }
 ]
 export const Toolslist = [
@@ -39,9 +39,9 @@ export const ProjectsData = [
     "gitUrl": "https://github.com/OmarSalah1911/travel-advisor",
     "assets": {
       "cover": require("../assets/my-portfolio/react/Safer-project/safer1.png"),
-      "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/Safer-project/safer1.png"),
-      "det1":require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/Safer-project/safer2.png"),
-      "det2": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/Safer-project/safer3.png"),
+      "main": require("../assets/my-portfolio/react/Safer-project/safer1.png"),
+      "det1":require("../assets/my-portfolio/react/Safer-project/safer2.png"),
+      "det2": require("../assets/my-portfolio/react/Safer-project/safer3.png"),
     },
     "description": "Safer website is travel advisor, helping people whose didnt know so much about their current place, By Advice them the best Hotels, Restaurants and Attractions around them.",
     "url": "https://travel-advisor-rose.vercel.app/",
@@ -54,10 +54,10 @@ export const ProjectsData = [
     "tool": "ReactJs",
     "gitUrl": "https://github.com/OmarSalah1911/deliciousss",
     "assets": {
-      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/Recipe/d-1.png"),
-      "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/Recipe/d-1.png"),
-      "det1": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/Recipe/d-2.png"),
-      "det2": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/Recipe/d-3.png"),
+      "cover": require("../assets/my-portfolio/react/Recipe/d-1.png"),
+      "main": require("../assets/my-portfolio/react/Recipe/d-1.png"),
+      "det1": require("../assets/my-portfolio/react/Recipe/d-2.png"),
+      "det2": require("../assets/my-portfolio/react/Recipe/d-3.png"),
     },
     "description": "Delicioussss is a recipe for kitchens from all over the world, offering you what the dish you want is made of, with simple steps to make.",
     "url": "https://omarsalah1911.github.io/deliciousss/",
@@ -70,10 +70,10 @@ export const ProjectsData = [
     "tool": "ReactJS",
     "gitUrl": "https://github.com/OmarSalah1911/cryptoon",
     "assets": {
-      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/crypto/crypto1.png"),
-      "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/crypto/crypto2.png"),
-      "det1": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/crypto/crypto3.png"),
-      "det2":  require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/crypto/crypto4.png"),
+      "cover": require("../assets/my-portfolio/react/crypto/crypto1.png"),
+      "main": require("../assets/my-portfolio/react/crypto/crypto2.png"),
+      "det1": require("../assets/my-portfolio/react/crypto/crypto3.png"),
+      "det2":  require("../assets/my-portfolio/react/crypto/crypto4.png"),
     },
     "description": "Cryptoon is website for the latest news about crypto currencies with awesome search fuctionality, you can find more by visit it.",
     "url": "https://www.cryptoon.com",
@@ -86,10 +86,10 @@ export const ProjectsData = [
     "tool": "ReactJs / Styled-Components",
     "gitUrl": "https://github.com/OmarSalah1911/dolla-website",
     "assets": {
-      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/dolla/dolla-1.png"),
-      "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/dolla/dolla-1.png"),
-      "det1": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/dolla/dolla-2.png"),
-      "det2": require('/home/omar/Desktop/my-site/src/assets/my-portfolio/react/dolla/dolla-mobile-view-1.png'),
+      "cover": require("../assets/my-portfolio/react/dolla/dolla-1.png"),
+      "main": require("../assets/my-portfolio/react/dolla/dolla-1.png"),
+      "det1": require("../assets/my-portfolio/react/dolla/dolla-2.png"),
+      "det2": require('../assets/my-portfolio/react/dolla/dolla-mobile-view-1.png'),
     },
     "description": "Dolla website is virtual banking site, to gives you Unlimited Transaction with zero fees  that allows you to sand unlimited transaction without charged any fees.",
     "url": "https://omarsalah1911.github.io/dolla-website/",
@@ -102,10 +102,10 @@ export const ProjectsData = [
     "tool": "ReactJs / Material UI",
     "gitUrl": "https://github.com/OmarSalah1911/Todo-List",
     "assets": {
-      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/todo-app/todo1.png"),
-      "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/todo-app/todo2.png"),
-      "det1": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/todo-app/todo3.png"),
-      "det2": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/todo-app/todo4.png")
+      "cover": require("../assets/my-portfolio/react/todo-app/todo1.png"),
+      "main": require("../assets/my-portfolio/react/todo-app/todo2.png"),
+      "det1": require("../assets/my-portfolio/react/todo-app/todo3.png"),
+      "det2": require("../assets/my-portfolio/react/todo-app/todo4.png")
     },
     "description": "ToDo app is one Place for all your tasks, plan your day effectively and access your tasks and lists from anywhere on-the-go from any device",
     "url": "https://todo-list-nu-ruddy.vercel.app/",
@@ -118,9 +118,9 @@ export const ProjectsData = [
     "tool": "ReactJs",
     "gitUrl": "https://github.com/OmarSalah1911/Grocery-List",
     "assets": {
-      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/grocery/grocery-list.png"),
-      "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/grocery/grocery-list.png"),
-      "det1": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/grocery/grocery.png"),
+      "cover": require("../assets/my-portfolio/react/grocery/grocery-list.png"),
+      "main": require("../assets/my-portfolio/react/grocery/grocery-list.png"),
+      "det1": require("../assets/my-portfolio/react/grocery/grocery.png"),
       "det2": "",
     },
     "description": "Grocery List to help you remember what you need from the market, and help to focus on what you need and forget the others stuff, don't waste your money :)",
@@ -134,10 +134,10 @@ export const ProjectsData = [
     "tool": "ReactJs / CRUD API / JSON Server",
     "gitUrl": "https://github.com/OmarSalah1911/bloger",
     "assets": {
-      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/blog-site/blog-cover.png"),
-      "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/blog-site/home.png"),
-      "det1": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/blog-site/blog-cover.png"),
-      "det2": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/blog-site/create.png"),
+      "cover": require("../assets/my-portfolio/react/blog-site/blog-cover.png"),
+      "main": require("../assets/my-portfolio/react/blog-site/home.png"),
+      "det1": require("../assets/my-portfolio/react/blog-site/blog-cover.png"),
+      "det2": require("../assets/my-portfolio/react/blog-site/create.png"),
     },
     "description": "Blog Site is an application to write and read blog posts, also you can write your own blog with dynamiclly CRUD api technology",
     "url": "https://omarsalah1911.github.io/bloger/#/",
@@ -150,8 +150,8 @@ export const ProjectsData = [
     "tool": "ReactJs/ A lot Of JavaScript :)",
     "gitUrl": "https://github.com/OmarSalah1911/Calculator",
     "assets": {
-      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/calc/calc.png"),
-      "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react/calc/calc1.png"),
+      "cover": require("../assets/my-portfolio/react/calc/calc.png"),
+      "main": require("../assets/my-portfolio/react/calc/calc1.png"),
       "det1": "",
       "det2": "",
     },
@@ -166,10 +166,10 @@ export const ProjectsData = [
     "tool": "React Native / State Managment ReduxJs",
     "gitUrl": "https://github.com/OmarSalah1911/ecommerce-ReactNative",
     "assets": {
-      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react-native/e-commerce/cover.jpg"),
-      "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react-native/e-commerce/cover.jpg"),
-      "det1": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react-native/e-commerce/main.jpg"),
-      "det2": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/react-native/e-commerce/login.jpg"),
+      "cover": require("../assets/my-portfolio/react-native/e-commerce/cover.jpg"),
+      "main": require("../assets/my-portfolio/react-native/e-commerce/cover.jpg"),
+      "det1": require("../assets/my-portfolio/react-native/e-commerce/main.jpg"),
+      "det2": require("../assets/my-portfolio/react-native/e-commerce/login.jpg"),
     },
     "description": "AAA mobile App online store to buy what you need without wasting your time",
     "url": "https://github.com/OmarSalah1911/ecommerce",
@@ -182,9 +182,9 @@ export const ProjectsData = [
     "tool": "JavaScript / HTML / CSS",
     "gitUrl": "",
     "assets": {
-      "cover": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/js/memory-game/front.png"),
-      "main": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/js/memory-game/front.png"),
-      "det1": require("/home/omar/Desktop/my-site/src/assets/my-portfolio/js/memory-game/back.png"),
+      "cover": require("../assets/my-portfolio/js/memory-game/front.png"),
+      "main": require("../assets/my-portfolio/js/memory-game/front.png"),
+      "det1": require("../assets/my-portfolio/js/memory-game/back.png"),
       "det2": "https://github.com/OmarSalah1911/Memory-Game",
     },
     "description": "Memory Game is challenge you to get all photos match each other in time duration enjoy it with a cup of coffee.",

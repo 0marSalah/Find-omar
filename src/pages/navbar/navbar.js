@@ -46,7 +46,7 @@ export const NavLink = styled(LinkS)`
 
   &:hover {
     transition: all ease-in-out 0.2s;
-    color: #e31b6d;
+    /* color: #e31b6d; */
   }
 `
 //  RESPONSIVE

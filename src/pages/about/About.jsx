@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import {SkillBar} from 'react-skillbars'
 import { AboutData } from '../../data/db'
-import { NavLink } from '../navbar/navbar'
+import { NavLink } from '../navbar/Navbar'
 import {
   Wrapper,
   H1,
@@ -17,7 +17,7 @@ import {
   Desc,
   Left,
 
-} from './about'
+} from './About'
 
 const About = () => {
   const skills = [
@@ -73,7 +73,7 @@ const About = () => {
           }}>
           <Left>
             <MeWrapper>
-              <Img src={require('/home/omar/Desktop/my-site/src/assets/edit.png')} alt="" />
+              <Img src={require('../../assets/edit.png')} alt="" />
             </MeWrapper>
             <h1>Who's this guy?</h1>
             <Desc>I'm a Front-End Developer based on Aswan/Egypt <br />

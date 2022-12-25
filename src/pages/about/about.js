@@ -71,9 +71,10 @@ export const Card = styled.div`
   }
 `
 export const PhotoWrapper = styled.div`
-  background: #04c2c9;
+  /* background: #04c2c9; */
+  /* color: #04c2c9; */
   padding: 20px;
-  border-radius: 28% 72% 32% 68% / 100% 64% 36% 0%  ;
+  /* border-radius: 28% 72% 32% 68% / 100% 64% 36% 0%  ; */
 `
 export const Photo = styled.img`
   
@@ -116,8 +117,9 @@ export const MeWrapper = styled.div`
   align-items: center;
   border-radius: 80% 20% 88% 12% / 73% 100% 0% 27%   ;
 `
-export const Img = styled.img`
+export const Img = styled.svg`
   width: 300px;
+  color: #04c2c9;
 `
 export const Desc = styled.div`
   line-height: 1.8;

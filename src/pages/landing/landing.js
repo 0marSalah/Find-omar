@@ -69,6 +69,25 @@ export const Content = styled.div`
     font-size: 1.1rem;
   } 
 
+  .btn-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 20px 0;
+
+    @media (max-width: 820px) {
+      flex-direction: column;
+      align-items: center;
+
+      * {
+        margin: 0;
+      }
+      
+      .kLzOlj {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
 `
 export const Button = styled(LinkS)`
   background-color: transparent;
@@ -78,9 +97,10 @@ export const Button = styled(LinkS)`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-block: 20px;
+    margin-right: 60px;
     cursor: pointer;
-    width: fit-content;
+    width: 190px;
+    height: 60px;
 
     &:hover {
       background-color: #04c2c9;
