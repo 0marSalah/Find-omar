@@ -68,6 +68,7 @@ export const Card = styled.div`
   h3 {
     font-size: 25px;
     margin: 10px 5px;
+    color: #e31b6d;
   }
 `
 export const PhotoWrapper = styled.div`
@@ -117,7 +118,7 @@ export const MeWrapper = styled.div`
   align-items: center;
   border-radius: 80% 20% 88% 12% / 73% 100% 0% 27%   ;
 `
-export const Img = styled.svg`
+export const Img = styled.img`
   width: 300px;
   color: #04c2c9;
 `

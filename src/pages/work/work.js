@@ -17,15 +17,15 @@ export const Container = styled.div`
 
 `
 export const ProjectsWrapper = styled.div`
-
+  /* margin-left: ${({ scroll }) => (scroll ? "0px" : "-2000000000vw")}; */
 `
 export const ProjectsContainer = styled.div`
   display: grid;
   align-items: center;
   justify-items: center;
   height: auto;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  z-index: ${({ hover }) => (hover ? "1" : "-1")};
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+  /* opacity: ${({ hover }) => (hover ? "0" : "1")}; */
 `
 export const ToolsList = styled.ul`
   list-style: none;
