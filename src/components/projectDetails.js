@@ -67,7 +67,7 @@ export const Button = styled.a`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-inline: 15px;
+    margin-inline: 0px 15px;
     /* width: fit-content; */
     cursor: pointer;
     width: 190px;

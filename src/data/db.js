@@ -40,7 +40,7 @@ export const ProjectsData = [
     "assets": {
       "cover": require("../assets/my-portfolio/react/Safer-project/safer1.png"),
       "main": require("../assets/my-portfolio/react/Safer-project/safer1.png"),
-      "det1":require("../assets/my-portfolio/react/Safer-project/safer2.png"),
+      "det1": require("../assets/my-portfolio/react/Safer-project/safer2.png"),
       "det2": require("../assets/my-portfolio/react/Safer-project/safer3.png"),
     },
     "description": "Safer website is travel advisor, helping people whose didnt know so much about their current place, By Advice them the best Hotels, Restaurants and Attractions around them.",
@@ -73,7 +73,7 @@ export const ProjectsData = [
       "cover": require("../assets/my-portfolio/react/crypto/crypto1.png"),
       "main": require("../assets/my-portfolio/react/crypto/crypto2.png"),
       "det1": require("../assets/my-portfolio/react/crypto/crypto3.png"),
-      "det2":  require("../assets/my-portfolio/react/crypto/crypto4.png"),
+      "det2": require("../assets/my-portfolio/react/crypto/crypto4.png"),
     },
     "description": "Cryptoon is website for the latest news about crypto currencies with awesome search fuctionality, you can find more by visit it.",
     "url": "https://www.cryptoon.com",
@@ -180,7 +180,7 @@ export const ProjectsData = [
     "title": "Memory Game",
     "subtitle": "Memory game is challenge game to develop you brain memory",
     "tool": "JavaScript / HTML / CSS",
-    "gitUrl": "",
+    "gitUrl": "https://github.com/OmarSalah1911/memory-game",
     "assets": {
       "cover": require("../assets/my-portfolio/js/memory-game/front.png"),
       "main": require("../assets/my-portfolio/js/memory-game/front.png"),

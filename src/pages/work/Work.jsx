@@ -20,7 +20,6 @@ import {
 
 const Work = () => {
   const ref = useRef();
-  const [projects, setProjects] = useState(ProjectsData);
   const [hover, setHover] = useState(false);
   const [specific, setSpecific] = useState(null);
   const [click, setClick] = useState("inside");
@@ -28,7 +27,7 @@ const Work = () => {
 
   const imgAnimate = () => {
     if (window.scrollY >= 1800) {
-      projects.map((project) => {
+      ProjectsData.map((project) => {
         const h = document.getElementById(project.id);
         h.className = "animate__animated animate__backInLeft sc-ilhmMj kRhsbD";
       });
@@ -37,22 +36,6 @@ const Work = () => {
     } else {
       setScroll(false);
       setHover(false);
-    }
-  };
-
-  const changeActive = (e) => {
-    for (let i = 0; i < e.currentTarget.parentNode.children.length; i++) {
-      e.currentTarget.parentNode.children[i].className = " sc-gikAfH ktHcbS";
-    }
-    e.currentTarget.className = "active sc-gikAfH ktHcbS";
-    const arr = ProjectsData.filter(
-      (project) => project.fn === e.target.innerHTML
-    );
-
-    if (arr.length === 0) {
-      setProjects(ProjectsData);
-    } else {
-      setProjects(arr);
     }
   };
 
@@ -68,8 +51,8 @@ const Work = () => {
         </H1D>
         <ProjectsWrapper scroll={scroll}>
           <ProjectsContainer hover={hover}>
-            {projects &&
-              projects.map((project) => (
+            {ProjectsData &&
+              ProjectsData.map((project) => (
                 <Project
                   hover={hover}
                   key={project.id}
@@ -85,7 +68,7 @@ const Work = () => {
                   <ProjectDetails
                     id={project.subtitle}
                     specific={specific}
-                    projects={projects}
+                    projects={ProjectsData}
                     click={click}
                     setClick={setClick}
                   />

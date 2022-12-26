@@ -97,7 +97,7 @@ export const Button = styled(LinkS)`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 60px;
+    /* margin-right: 60px; */
     cursor: pointer;
     width: 190px;
     height: 60px;
