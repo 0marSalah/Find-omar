@@ -131,4 +131,5 @@ export const Link = styled.a`
 export const CopyRight = styled.h4`
   margin: 0;
   color: #e31b6d;
+  font-size: 14;
 `

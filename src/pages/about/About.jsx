@@ -47,6 +47,7 @@ const About = () => {
   useEffect(() => {
     window.addEventListener("scroll", changenav)
   }, [])
+
   return (
     <Wrapper id='about' scroll={scroll}>
         <H1D><H1>ABOUT</H1></H1D>

@@ -24,7 +24,7 @@ const Landing = () => {
           <ButtonA
             onMouseEnter={() => setHovera(true)}
             onMouseLeave={() => setHovera(false)}
-            href="https://drive.google.com/file/d/10Vc6JmejjEJAs-XQJB7um5Sa8cb5YLMk/view?usp=share_link"
+            href="https://drive.google.com/file/d/1LxDaeiv8LQyl6EjLdnMQv4eQeqr0D1Zz/view?usp=share_link"
             target="_blank"
           >
             My <span style={{ marginInline: "5px" }}>Resume</span>
